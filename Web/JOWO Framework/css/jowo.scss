@@ -1,12 +1,16 @@
+%centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.sliderContainer {
-    width: 80vw;
-    height: 50vh;
+.jw-sliderContainer {
     margin: auto;
     position: relative;
     .jw-sliderWrapper {
