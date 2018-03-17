@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JOWO Framework</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div id="mislider" class="sliderContainer">
+        <div class="jw-sliderWrapper">
+            <div class="jw-sliderItem"></div>
+            <div class="jw-sliderItem"></div>
+            <div class="jw-sliderItem"></div>
+            <div class="jw-sliderItem"></div>
+            <div class="jw-sliderItem"></div>
+        </div>
+    </div>
+    <script>
+        var miSlider = new Slider('mislider', {
+            duracion: 5000,
+            botones: {
+                enumeracion: false,
+                clickeable: false,
+            },
+        })
+    </script>
+</body>
+
+</html>
