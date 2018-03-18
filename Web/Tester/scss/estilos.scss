@@ -11,12 +11,78 @@
 }
 
 body {
-    background-color: #eee;
+    background-color: #161616;
+    color: #eee;
 }
 
 header {
     h1 {
+        font-size: 40px;
         padding: 1em;
         @extend %centrar;
     }
 }
+
+.agregar{
+    margin: auto;
+    width: 60%;
+    background-color: #646464;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    input, button{
+        border-radius: 7px;
+        padding: .5em;
+        font-size: 20px;
+    }
+    button{
+        font-size: 20px;
+        border-radius: 7px;
+        padding: .5em;
+        cursor: pointer;
+        background-color: crimson;
+        color: #eee;
+        border: none;
+        transition: all .3s;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    
+}
+
+.lista{
+    margin: auto;
+    width: 90%;
+    .item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em;
+        transition: all .3s;
+        cursor: pointer;
+        background-color: #646464;
+        margin-bottom: 1em;
+        &:hover{
+            background-color: #323232;
+        }
+        p{
+            font-size: 25px;
+        }
+        button{
+            font-size: 20px;
+            border-radius: 7px;
+            padding: .5em;
+            cursor: pointer;
+            background-color: crimson;
+            color: #eee;
+            border: none;
+            transition: all .3s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+

@@ -1,3 +1,5 @@
 window.onload = ()=>{
-    console.log("alv");
+    var agregar = document.querySelector("#agregarBtn");
+    agregar.addEventListener("click",()=>{});
 }
+
