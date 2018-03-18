@@ -1,0 +1,15 @@
+{
+  "name": "Tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -w scss/ -o css/",
+    "type": "tsc -w",
+    "servidor": "browser-sync start -s -f 'index.html, css/*.css, javascript/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

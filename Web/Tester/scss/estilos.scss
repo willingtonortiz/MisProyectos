@@ -1,0 +1,22 @@
+%centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+}
+
+header {
+    h1 {
+        padding: 1em;
+        @extend %centrar;
+    }
+}
