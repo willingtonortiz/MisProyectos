@@ -1,0 +1,6 @@
+./css/
+./javascript/
+./scss/*.css
+./typescript/*.js
+package.json
+tsconfig.json
